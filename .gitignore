@@ -1,3 +1,8 @@
+# idea
+.idea/
+/target/
+data-dictionary.iml
+
 # Compiled class file
 *.class
 
