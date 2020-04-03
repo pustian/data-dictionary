@@ -1,4 +1,4 @@
-package tian.pusen.web;
+package tian.pusen.data.web;
 
 import org.junit.Assert;
 import org.junit.Before;
