@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tian.pusen.data.mapper.ElementMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="tian.pusen.data.entity.Element">
+        <id column="id" property="id" />
+        <result column="name" property="name" />
+        <result column="name_en" property="nameEn" />
+        <result column="name_sql" property="nameSql" />
+        <result column="sql_type" property="sqlType" />
+        <result column="name_c" property="nameC" />
+        <result column="c_type" property="cType" />
+        <result column="name_java" property="nameJava" />
+        <result column="java_type" property="javaType" />
+        <result column="name_js" property="nameJs" />
+        <result column="validate" property="validate" />
+        <result column="description" property="description" />
+        <result column="type" property="type" />
+        <result column="status" property="status" />
+        <result column="gmt_create" property="gmtCreate" />
+        <result column="gmt_modified" property="gmtModified" />
+    </resultMap>
+
+</mapper>
