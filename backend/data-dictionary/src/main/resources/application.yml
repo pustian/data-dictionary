@@ -2,7 +2,7 @@ server:
     port: 8080
 spring:
     profiles:
-        active: dev0
+        active: dev
 
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
@@ -63,7 +63,7 @@ mybatis-plus:
 #debug: true
 ---
 spring:
-    profiles: dev0
+    profiles: test
     datasource:
         druid:
             url: jdbc:mysql://192.168.1.106:3306/data_dictionary?serverTimezone=Asia/Shanghai
@@ -72,11 +72,11 @@ spring:
             driver-class-name: com.mysql.cj.jdbc.Driver
 ---
 spring:
-    profiles: dev1
+    profiles: dev
     datasource:
         druid:
-            url: jdbc:mysql://192.168.122.249:3306/data-dictionary?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
+            url: jdbc:mysql://127.0.0.1:3306/data-dictionary?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
             username: root
-            password: mysql123
+            password: 123456
             driver-class-name: com.mysql.cj.jdbc.Driver
 ---

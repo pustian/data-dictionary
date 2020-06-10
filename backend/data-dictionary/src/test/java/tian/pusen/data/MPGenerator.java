@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.generator.config.rules.DbType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 
 
-public class Dev1Generator {
+public class MPGenerator {
 
     /**
      * <p>

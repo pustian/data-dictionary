@@ -4,7 +4,7 @@
 
 数据字典管理 data-dictionary
 
-### front
+### frontend
 
 前端检查显示
 

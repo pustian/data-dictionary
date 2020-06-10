@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration scan="true" scanPeriod="10 seconds">
-    <property name="LOG_HOME" value="/logs" />
+    <property name="LOG_HOME" value="/data/logs" />
     <property name="APP_NAME" value="data-dictionary" />
     <property name="LOG_MAX_HISTORY" value="30" />
     <property name="LOG_APP_HOME" value="${LOG_HOME}/app" />
